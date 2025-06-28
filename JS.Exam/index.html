@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="bg-sky-500">
+
+    <div class="w-[450px] mx-auto mt-[250px] bg-sky-600 flex gap-[34px] items-center p-[20px] rounded-[20px]">
+        <div class="flex items-center gap-[16px]">
+            <div class="bg-sky-500 p-[5px] rounded-[10px]">
+                <p class="text-white font-bold text-6xl" id="hour"></p>
+                <p class="text-white font-bold">HOURS</p>
+            </div>
+            <div class="text-white font-bold text-6xl">:</div>
+            <div class="bg-sky-500 p-[5px] rounded-[10px]">
+                <p class="text-white font-bold text-6xl" id="min"></p>
+                <p class="text-white font-bold">MINUTES</p>
+            </div>
+            <div class="text-white font-bold text-6xl">:</div>
+            <div class="bg-sky-500 p-[5px] rounded-[10px]">
+                <p id="sec" class="text-6xl text-white font-bold"></p>
+                <p class="text-white font-bold">SECONDS</p>
+            </div>
+        </div>
+        <div class="text-white font-bold text-xl" id="half"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
